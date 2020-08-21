@@ -4,15 +4,236 @@
 	font-family: Century Gothic;
 }
 
-.title{
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.heading{
 	position: absolute;
-	top: 35%; 
-	left: 55%;
+	top: 10%; 
+	left: 52%;
 	transform: translate(-50%,-50%);
 }
 
-.title h1{
-	color: transparent;
+.heading h1{
+	color: white;
 	font-size: 100px;
     
+}
+
+
+.button{
+	position: absolute;
+	top: 6%; 
+	right: -3%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 9px solid white;
+	padding: 10px 40px;
+	color: white;
+	text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn:hover{
+	background-color: #23DE17;
+	color: white;
+}
+
+.imgBx{
+	margin-top: -40%;
+	margin-left: 10%;
+
+}
+
+.odometer{
+	font-size: 3em;
+    position: center;
+}
+
+/*.one img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 90%; 
+	left: 15%;
+	transform: translate(-50%,-50%);
+	margin: 10px;
+}
+*/
+.a img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 90%; 
+	left: 13%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+.b img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 90%; 
+	left: 38%;
+	transform: translate(-50%,-50%);
+}
+
+.c img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 90%; 
+	left: 63%;
+	transform: translate(-50%,-50%);
+}
+
+.d img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 90%; 
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+
+
+.e img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 130%; 
+	left: 13%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+.f img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 130%; 
+	left: 38%;
+	transform: translate(-50%,-50%);
+}
+
+.g img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 130%; 
+	left: 63%;
+	transform: translate(-50%,-50%);
+}
+
+.h img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 130%; 
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+
+.i img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 170%; 
+	left: 13%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+.j img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 170%; 
+	left: 38%;
+	transform: translate(-50%,-50%);
+}
+
+.k img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 170%; 
+	left: 63%;
+	transform: translate(-50%,-50%);
+}
+
+.l img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 170%; 
+	left: 88%;
+	transform: translate(-50%,-50%);
+}
+
+.m img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 210%; 
+	left: 13%;
+	transform: translate(-50%,-50%);
+
+}
+
+
+.n img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 210%; 
+	left: 38%;
+	transform: translate(-50%,-50%);
+}
+
+.o img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 210%; 
+	left: 63%;
+	transform: translate(-50%,-50%);
+}
+
+.p img{
+	width: 300px;
+	height: 200px;
+	border-radius: 10%;
+    position: absolute;
+	top: 210%; 
+	left: 88%;
+	transform: translate(-50%,-50%);
 }
