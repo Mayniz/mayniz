@@ -203,6 +203,7 @@ body{
     position: absolute;
 	top: 210%; 
 	left: 13%;
+	margin-bottom: 150px;
 	transform: translate(-50%,-50%);
 
 }
@@ -215,6 +216,7 @@ body{
     position: absolute;
 	top: 210%; 
 	left: 38%;
+	margin-bottom: 150px;
 	transform: translate(-50%,-50%);
 }
 
@@ -225,6 +227,7 @@ body{
     position: absolute;
 	top: 210%; 
 	left: 63%;
+	margin-bottom: 150px;
 	transform: translate(-50%,-50%);
 }
 
@@ -235,5 +238,6 @@ body{
     position: absolute;
 	top: 210%; 
 	left: 88%;
+	margin-bottom: 150px;
 	transform: translate(-50%,-50%);
 }
