@@ -4,70 +4,81 @@
 	font-family: Century Gothic;
 }
 
-header{
-	background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(2880x1620_neon-ring-sci-fi-huawei-mediapad-m6-stock.jpg);
-	height: 100vh;
-	background-size: cover;
-  	background-position: center;
-  	
-}
-
-ul{
-	float: right;
-	list-style-type: none;
-	margin-top: 2%;
-	margin-right: 1%;	
-}
-
-ul li{
-	display: inline-block;
-}
-
-ul li a{
-	text-decoration: none;
-	color: #fff;
-	padding: 10px 50px;
-	border: 3% solid transparent;
-	transition: 0.5s ease;
-	margin: 5px;
-	font-weight: bold;
-}
-
-ul li a:hover{
-	background-color: #fff;
-	color: #000;
-	font-weight: bold;
-}
-ul li.active a{
-	background-color: #fff;
-	color: #000;
-	font-weight: bold;
-}
-
-.logo img{
-	/*float: left;*/
-	width: 200px;
- /*   padding-top: 15%;
-    padding-left: 45%;
-    size: 50%,50%;*/
-    position: absolute;
-	top: 40%; 
-	left: 50%;
-	transform: translate(-50%,-50%);
-}
-
 .title{
 	position: absolute;
-	top: 55%; 
+	top: 58%; 
 	left: 50%;
 	transform: translate(-50%,-50%);
+	font-weight: bold;
+/*	font-family: Century Gothic;*/
 }
 
 .title h1{
 	color: #fff;
 	font-size: 70px;
+	font-weight: bold;
 
 }
+
+body{
+	margin: 0;
+	padding: 0;
+	background:#fff;
+	font-family: 'Raleway',sans-serif;
+}
+
+.banner{
+	background-image:/*linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),*/ url(mom.png);
+	height: 100vh;
+	background-size: cover;
+  	background-position: center;
+}
+
+.banner .navbar{
+	margin-top: 3%;
+}
+
+.banner .navbar-brand{
+	color: transparent;
+	font-size:1.8em;
+	font-weight: 700;
+	margin-left: 10%;  
+}
+
+.banner .nav{
+	margin-right:-1%;
+	margin-top:-5%;
+}
+
+.banner .nav li a{
+/*	color: white;*/
+    font-size: 1.2em;
+
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 50px;
+	border: 3% solid transparent;
+	transition: 0.5s ease;
+	margin: 5px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	border-radius: 10%;
+}
+ul li.active a{
+	background-color: black;
+	color: white;
+	font-weight: bold;
+}
+
 
 .button{
 	position: absolute;
@@ -90,7 +101,3 @@ ul li.active a{
 	background-color: #23DE17;
 	color: white;
 }
-
-/*.main{
-	padding-right: 20px;
-}*/
