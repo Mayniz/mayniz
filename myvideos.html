@@ -1,111 +1,260 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>subscriberscount</title>
-  <link rel="stylesheet" type="text/css" href="livesubcount.css">
-  <link rel="stylesheet" href="odometer-theme-car.css">
+<link rel="stylesheet" type="text/css" href="myvideos.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+@viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+@-ms-viewport {
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
 </head>
-<body background="Image-Community-header-background-YouTube-Romania-.jpg">
-   <div>    
-    <div class="heading">
-      <h1>LIVE STATUS</h1>
-    </div>
+<body>
+<!-- <h2>UPCOMING VIDEOS</h2> -->
 
-        <div class="button">
-      <a href="index.html" class="btn">HOME</a>
-      </div>
+<div class="slideshow-container">
+
+  <!-- automatic slideshow -->
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Untitled Design copy.png" style="width:100%">
+  <div class="text"><!-- THANK'S FOR YOUR SUPPORT GUY'S --></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Untitled Design copy (1).png" style="width:100%">
+  <div class="text"><!-- GUYS A NEW PRANK VIDEO WILL BE COMING SOON --></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Untitled Design copy (2).png" style="width:100%">
+  <div class="text"><!-- FRNDS A NEW VIDEO WILL BE COMING SOON --></div>
+</div>
+
+</div>
+<br>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  // var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  // for (i = 0; i < dots.length; i++) {
+  //   dots[i].className = dots[i].className.replace(" active", "");
+  // }
+  slides[slideIndex-1].style.display = "block";  
+  // dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 8000); // Change image every 5 seconds
+}
+</script>
+ <div class="topnav">
+    <a class="active" href="#home">MY VIDEOS</a> 
+    <a href="index.html" class="btn">HOME</a>
+ </div> 
+
+<!-- 
+      <div class="button">
         
-            <div class="imgBx">
-              <img src="nizam.jpg" width="200px" height="200px">
-           </div>
-
-      <div>
-
-           <br>
-           <br>
-           <br>
-           <div id="odometer" class="odometer">0000</div>
-           <h2>SUBSCRIBERS</h2>
-           </div>
-
-               <script src="odometer.min.js"></script>
-               <script type="text/javascript">
-           setTimeout(function(){
-                 odometer.innerHTML = 1168;
-           },);
-               </script>
-
-          <div class="a">
-            <a href="https://youtu.be/RrSyEaP4v4A"><img src="Untitled.png"></a>
-          </div>
-
-          <div class="b">
-            <a href="https://youtu.be/pZwb45yOhEc"><img src="maxresdefault (3).jpg"></a>
-          </div>
-
-          <div class="c">
-            <a href="https://youtu.be/idD9ZJEvy-I"><img src="maxresdefault.jpg"></a>
-          </div>
-
-          <div class="d">
-            <a href="https://youtu.be/1do0q9uD3us"><img src="sddefault.jpg"></a>
-          </div>
-
-          <div class="e">
-            <a href="https://youtu.be/qX3kFKFHxuw"><img src="maxresdefault (5).jpg"></a>
-          </div>
-
-          <div class="f">
-            <a href="https://youtu.be/sNGbh14kp6g"><img src="maxresdefault (1).jpg"></a>
-          </div>
-
-          <div class="g">
-            <a href="https://youtu.be/pE3xSw3Ad0k"></a><img src="maxresdefault (6).jpg">
-          </div>
-
-          <div class="h">
-            <a href="https://youtu.be/AWZQZ2V6sAc"><img src="maxresdefault (7).jpg"></a>
-          </div>
-
-           <div class="i">
-            <a href="https://youtu.be/iA-BVXsoYHA"><img src="maxresdefault (8).jpg"></a>
-          </div>
-
-          <div class="j">
-            <a href="https://youtu.be/m4ZubmYTIbQ"><img src="maxresdefault (4).jpg"></a>
-          </div>
-
-          <div class="k">
-            <a href="https://youtu.be/5o1G9nERmkU"><img src="moideen.jpg"></a>
-          </div>
-
-          <div class="l">
-            <a href="https://youtu.be/oc2jmbXJQ_M"><img src="rubix211.jpg"></a>
-          </div>
-
-           <div class="m">
-            <a href="https://youtu.be/8-nCXmImDC0"><img src="sddefault (1).jpg"></a>
-          </div>
-
-          <div class="n">
-            <a href="https://youtu.be/sE9d0Vm52WE"><img src="maxresdefault (2).jpg"></a>
-          </div>
-
-          <div class="o">
-            <a href="https://youtu.be/jqJNGaa8Zn0"><img src="jijo.png"></a>
-          </div>
-
-          <div class="p">
-            <a href="https://youtu.be/jZ_DlNu3snY"><img src="maxresdefault (9).jpg"></a>
-          </div>
-
-      </div>
-    </div> 
-  </body>
-</html>
+      </div> -->
 
 
+<br>
+<br>
+     <div class="marque">
+         <marquee behavior="scroll" direction="left" height="55px" scrollamount="30">NEW VIDEOS</marquee>
+     </div>
+<br>
+<br>
+<br>
+  <div class="video">
+     <iframe width="605" height="300" src="https://youtube.com/embed/RrSyEaP4v4A">
+     </iframe>
+     
+     <iframe width="605" height="300" src="https://youtube.com/embed/pZwb45yOhEc">
+     </iframe>
+     
+     <iframe width="605" height="300" src="https://youtube.com/embed/idD9ZJEvy-I">
+     </iframe>
 
 
-<!-- <div class="boss">
-</div> -->
+<br>
+<br>
+     <div class="marque">
+            <marquee behavior="scroll" direction="left" height="80px" scrollamount="28">CUBE SOLVING</marquee>
+     </div>
+<br>
+<br>
+<br>
+<br>
+ <!--  <div class="video"> -->
+       <!-- <iframe width="605" height="300" src="https://youtube.com/embed/jqJNGaa8Zn0">
+       </iframe> -->
+       
+       <iframe width="605" height="300" src="https://youtube.com/embed/jqJNGaa8Zn0">
+       </iframe>
+     
+       <iframe width="605" height="300" src="https://youtube.com/embed/oc2jmbXJQ_M">
+       </iframe>
+
+
+<br>
+<br>
+     <div class="marque">
+            <marquee behavior="scroll" direction="left" height="80px" scrollamount="26">TROLLS & COMEDY</marquee>
+     </div>
+<br>
+<br>
+<br>
+<br>
+ <!--  <div class="video"> -->
+       <iframe width="605" height="300" src="https://youtube.com/embed/iA-BVXsoYHA">
+       </iframe>
+       
+       <iframe width="605" height="300" src="https://youtube.com/embed/m4ZubmYTIbQ">
+       </iframe>
+     
+       <iframe width="605" height="300" src="https://youtube.com/embed/AWZQZ2V6sAc">
+       </iframe>
+<br>
+<br>
+
+     <div class="marque">
+            <marquee behavior="scroll" direction="left" height="80px" scrollamount="24">UNBOXING TECH & INFO</marquee>
+     </div>
+<br>
+<br>
+<br>
+<br>
+ <!--  <div class="video"> -->
+       <iframe width="605" height="300" src="https://youtube.com/embed/idD9ZJEvy-I">
+       </iframe>
+       
+       <iframe width="605" height="300" src="https://youtube.com/embed/sNGbh14kp6g">
+       </iframe>
+     
+       <iframe width="605" height="300" src="https://youtube.com/embed/sE9d0Vm52WE">
+       </iframe>
+
+<br>
+<br>
+
+     <div class="marque">
+            <marquee behavior="scroll" direction="left" height="80px" scrollamount="22">MOVIES & TRAILER</marquee>
+     </div>
+<br>
+<br>
+<br>
+<br>
+ <!--  <div class="video"> -->
+       <iframe width="605" height="300" src="https://youtube.com/embed/1do0q9uD3us">
+       </iframe>
+
+       <iframe width="605" height="300" src="https://youtube.com/embed/pZwb45yOhEc">
+       </iframe> 
+       
+       <iframe width="605" height="300" src="https://youtube.com/embed/qX3kFKFHxuw">
+       </iframe>
+     
+       <iframe width="605" height="300" src="https://youtube.com/embed/5o1G9nERmkU">
+       </iframe> 
+
+       <iframe width="605" height="300" src="https://youtube.com/embed/8-nCXmImDC0">
+       </iframe> 
+
+<br>
+<br>
+
+     <div class="marque">
+            <marquee behavior="scroll" direction="left" height="80px" scrollamount="20">ENTERTAINMENT</marquee>
+     </div>
+<br>
+<br>
+<br>
+<br>
+ <!--  <div class="video"> -->
+       <iframe width="605" height="300" src="https://youtube.com/embed/jZ_DlNu3snY">
+       </iframe>
+       
+       <iframe width="605" height="300" src="https://youtube.com/embed/RrSyEaP4v4A">
+       </iframe>       
+
+  </div>
+ </body>
+</html> 
