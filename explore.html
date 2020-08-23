@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>explore</title>
-	<link rel="stylesheet" type="text/css" href="explore.css">
-</head>
-<body>
-  <img src="4Dm2oL.jpg">
-</body>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Coming Soon Page</title>
+    <link rel="stylesheet" href="explore.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Mayniz</h1>
+        
+        <h2>Your Time To Explore Is Coming Soon...</h2>
+
+          <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="count">
+          <div class="countd">
+            <span id="days">00</span>
+            DAYS
+          </div>
+
+          <div class="countd">
+            <span id="hours">00</span>
+            HOURS
+          </div>
+
+          <div class="countd">
+            <span id="minutes">00</span>
+            MINUTES
+          </div>
+
+          <div class="countd">
+            <span id="seconds">00</span>
+            SECONDS
+          </div>
+        </div>
+    </div>
+
+
+<script type="text/javascript">
+
+  var count = new Date("sep 1,2020 00:01:00").getTime();
+  var x = setInterval(function() {
+    var now = new Date().getTime();
+    var d = count - now;
+
+    var days = Math.floor(d/(1000*60*60*24));
+    var hours = Math.floor((d%(1000*60*60*24))/(1000*60*60));
+    var minutes = Math.floor((d%(1000*60*60))/(1000*60));
+    var seconds = Math.floor((d%(1000*60))/1000);
+
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("hours").innerHTML = hours;
+    document.getElementById("minutes").innerHTML = minutes;
+    document.getElementById("seconds").innerHTML = seconds;
+
+    if(d <= 0){
+      clearInterval(x);
+    }
+  },1000);
+</script>
+
+    <div class="button">
+       <a href="index.html" class="btn">HOME</a>
+    </div>
+
+
+
+  </body>
 </html>
