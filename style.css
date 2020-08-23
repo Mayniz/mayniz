@@ -102,25 +102,3 @@ ul li.active a{
 	color: white;
 }
 
-.click{
-	position: absolute;
-	top: 4.7%; 
-	left: 60%;
-	transform: translate(-50%,-50%);
-}
-
-.clk{
-	padding: 10px 40px;
-	color: white;
-	text-decoration: none;
-    transition: 0.6s ease;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 5%;
-}
-
-.clk:hover{
-	background-color: white;
-	color: black;
-}
-
